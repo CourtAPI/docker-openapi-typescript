@@ -1,5 +1,5 @@
-FROM node:16.14.0-alpine3.14
+FROM node:22.14.0-alpine3.21
 
-RUN npm install -g openapi-typescript@5.2.0
+RUN npm install -g openapi-typescript@7.6.1
 
 ENTRYPOINT ["/usr/local/bin/openapi-typescript"]
